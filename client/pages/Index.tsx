@@ -140,7 +140,7 @@ export default function Index() {
             <div className="relative">
               <div className="aspect-square bg-white rounded-3xl shadow-2xl overflow-hidden">
                 <img
-                  src="/placeholder.svg"
+                  src="https://res.cloudinary.com/dnma6wea8/image/upload/v1752737631/Screenshot_2025-07-17_143331_wtpxae.png"
                   alt="TradWear sustainable Vietnamese fashion"
                   className="w-full h-full object-cover"
                 />
