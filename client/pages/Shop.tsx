@@ -27,7 +27,7 @@ export default function Shop() {
       name: "Phờ bò Hà Nội",
       price: 275,
       originalPrice: null,
-      image: "https://tradwear.online/public/imaginepublic/4.png",
+      image: "https://res.cloudinary.com/dnma6wea8/image/upload/v1752736409/4_jycpbz.png",
       description: "Traditional Vietnamese noodle soup design",
       category: "t-shirt",
       region: "north",
@@ -40,7 +40,7 @@ export default function Shop() {
       name: "Hủ Tiếu Nam Vang",
       price: 299,
       originalPrice: 68,
-      image: "https://tradwear.online/public/imaginepublic/2.png",
+      image: "https://res.cloudinary.com/dnma6wea8/image/upload/v1752736409/2_hjphbc.png",
       description: "A tribute to Southern Vietnam’s culinary heritagee",
       category: "t-shirt",
       region: "north",
@@ -53,7 +53,7 @@ export default function Shop() {
       name: "Bánh mì Sài Gòn",
       price: 299,
       originalPrice: null,
-      image: "https://tradwear.online/public/imaginepublic/1.png",
+      image: "https://res.cloudinary.com/dnma6wea8/image/upload/v1752736410/1_d7qvzb.png",
       description: "Iconic Vietnamese sandwich culture",
       category: "shirt",
       region: "south",
@@ -66,7 +66,7 @@ export default function Shop() {
       name: "Bún Chả Hà Nội",
       price: 325,
       originalPrice: null,
-      image: "https://tradwear.online/public/imaginepublic/5.png", // thay bằng đường dẫn ảnh thực tế nếu có
+      image: "https://res.cloudinary.com/dnma6wea8/image/upload/v1752736410/5_mi8dry.png", // thay bằng đường dẫn ảnh thực tế nếu có
       description: "A tribute to Hanoi’s iconic grilled pork and vermicelli dish, combining culinary heritage with street food charm.",
       category: "t-shirt",
       region: "north",
@@ -79,7 +79,7 @@ export default function Shop() {
       name: "Bánh Xèo Miền Tây",
       price: 55,
       originalPrice: null,
-      image: "https://tradwear.online/public/imaginepublic/6.png", // bạn có thể đổi đường dẫn theo ảnh thật
+      image: "https://res.cloudinary.com/dnma6wea8/image/upload/v1752736410/6_tamelf.png", // bạn có thể đổi đường dẫn theo ảnh thật
       description: "Crispy Mekong-style pancake filled with shrimp, pork, and bean sprouts",
       category: "cuisine",
       region: "south",
