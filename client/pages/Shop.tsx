@@ -24,10 +24,10 @@ export default function Shop() {
   const products = [
     {
       id: 1,
-      name: "Pho Bowl Tee",
-      price: 32,
+      name: "Phờ bò Hà Nội",
+      price: 275,
       originalPrice: null,
-      image: "/placeholder.svg",
+      image: "/imaginepublic/4.png",
       description: "Traditional Vietnamese noodle soup design",
       category: "t-shirt",
       region: "north",
@@ -37,12 +37,12 @@ export default function Shop() {
     },
     {
       id: 2,
-      name: "Dong Ho Painting Hoodie",
-      price: 58,
+      name: "Hủ Tiếu Nam Vang",
+      price: 299,
       originalPrice: 68,
-      image: "/placeholder.svg",
-      description: "Folk art from Dong Ho village",
-      category: "hoodie",
+      image: "/imaginepublic/2.png",
+      description: "A tribute to Southern Vietnam’s culinary heritagee",
+      category: "t-shirt",
       region: "north",
       culturalTheme: "Traditional Art",
       isNew: false,
@@ -50,10 +50,10 @@ export default function Shop() {
     },
     {
       id: 3,
-      name: "Banh Mi Heritage Shirt",
-      price: 38,
+      name: "Bánh mì Sài Gòn",
+      price: 299,
       originalPrice: null,
-      image: "/placeholder.svg",
+      image: "/imaginepublic/1.png",
       description: "Iconic Vietnamese sandwich culture",
       category: "shirt",
       region: "south",
@@ -63,43 +63,44 @@ export default function Shop() {
     },
     {
       id: 4,
-      name: "Bat Trang Ceramic Tee",
-      price: 34,
+      name: "Bún Chả Hà Nội",
+      price: 325,
       originalPrice: null,
-      image: "/placeholder.svg",
-      description: "Ancient pottery village designs",
+      image: "/imaginepublic/5.png", // thay bằng đường dẫn ảnh thực tế nếu có
+      description: "A tribute to Hanoi’s iconic grilled pork and vermicelli dish, combining culinary heritage with street food charm.",
       category: "t-shirt",
       region: "north",
-      culturalTheme: "Traditional Crafts",
-      isNew: false,
-      isFavorite: false,
-    },
-    {
-      id: 5,
-      name: "Mekong Delta Hoodie",
-      price: 55,
-      originalPrice: null,
-      image: "/placeholder.svg",
-      description: "Southern Vietnam waterways",
-      category: "hoodie",
-      region: "south",
-      culturalTheme: "Natural Heritage",
+      culturalTheme: "Vietnamese Cuisine",
       isNew: true,
       isFavorite: true,
     },
-    {
-      id: 6,
-      name: "Hue Imperial Shirt",
-      price: 42,
-      originalPrice: 50,
-      image: "/placeholder.svg",
-      description: "Royal heritage of central Vietnam",
-      category: "shirt",
-      region: "central",
-      culturalTheme: "Imperial Culture",
-      isNew: false,
-      isFavorite: false,
+   {
+      id: 5,
+      name: "Bánh Xèo Miền Tây",
+      price: 55,
+      originalPrice: null,
+      image: "/imaginepublic/6.png", // bạn có thể đổi đường dẫn theo ảnh thật
+      description: "Crispy Mekong-style pancake filled with shrimp, pork, and bean sprouts",
+      category: "cuisine",
+      region: "south",
+      culturalTheme: "Culinary Heritage",
+      isNew: true,
+      isFavorite: true
     },
+
+    // {
+    //   id: 6,
+    //   name: "Hue Imperial Shirt",
+    //   price: 42,
+    //   originalPrice: 50,
+    //   image: "/placeholder.svg",
+    //   description: "Royal heritage of central Vietnam",
+    //   category: "shirt",
+    //   region: "central",
+    //   culturalTheme: "Imperial Culture",
+    //   isNew: false,
+    //   isFavorite: false,
+    // },
   ];
 
   const categories = [
@@ -301,11 +302,11 @@ export default function Shop() {
                           </h3>
                           <div className="text-right">
                             <div className="text-xl font-bold text-tradwear-green">
-                              ${product.price}
+                              {product.price} 
                             </div>
                             {product.originalPrice && (
                               <div className="text-sm text-gray-400 line-through">
-                                ${product.originalPrice}
+                                {product.originalPrice} 
                               </div>
                             )}
                           </div>

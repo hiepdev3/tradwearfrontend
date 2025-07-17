@@ -95,15 +95,15 @@ export default function Footer() {
             <div className="space-y-3 pt-4">
               <div className="flex items-center space-x-3 text-sm text-tradwear-cream/80">
                 <MapPin className="w-4 h-4 text-tradwear-green" />
-                <span>San Francisco, CA & Hanoi, Vietnam</span>
+                <span>Thach That, Hanoi, Vietnam</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-tradwear-cream/80">
                 <Phone className="w-4 h-4 text-tradwear-green" />
-                <span>+1 (555) 123-4567</span>
+                <span>+(84) 845795454</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-tradwear-cream/80">
                 <Mail className="w-4 h-4 text-tradwear-green" />
-                <span>hello@tradwear.com</span>
+                <span>Tradwear@gmail.com</span>
               </div>
             </div>
           </div>

@@ -38,11 +38,11 @@ export default function ProductDetail() {
   // Sample product data - in a real app, this would come from an API
   const product = {
     id: 1,
-    name: "Pho Bowl Tee",
+    name: "Phờ bò Hà Nội",
     category: "T-SHIRT",
     rating: 4.5,
     reviewCount: 42,
-    price: 32,
+    price: 275,
     compareAtPrice: 38,
     savePercent: 15,
     inStock: 24,
@@ -58,10 +58,10 @@ export default function ProductDetail() {
     ],
     sizes: ["S", "M", "L", "XL"],
     images: [
-      "/placeholder.svg",
-      "/placeholder.svg",
-      "/placeholder.svg",
-      "/placeholder.svg",
+      "/imaginepublic/4.png",
+      "/imaginepublic/4.png",
+      "/imaginepublic/4.png",
+      "/imaginepublic/4.png",
     ],
   };
 
@@ -95,17 +95,17 @@ export default function ProductDetail() {
   const relatedProducts = [
     {
       id: 2,
-      name: "Banh Mi Heritage Shirt",
+      name: "Bánh mì Sài Gòn",
       price: 38,
-      image: "/placeholder.svg",
+      image: "/imaginepublic/1.png",
       category: "Shirt",
     },
     {
       id: 3,
-      name: "Dong Ho Painting Hoodie",
+      name: "Hủ Tiếu Nam Vang",
       price: 58,
-      image: "/placeholder.svg",
-      category: "Hoodie",
+      image: "/imaginepublic/2.png",
+      category: "Shirt",
     },
     {
       id: 4,

@@ -49,10 +49,10 @@ export default {
         },
         // TradWear brand colors
         tradwear: {
-          green: "#B4E197",
+          green: "#7acc45",
           cream: "#FFF9E6",
           "dark-green": "#8BC34A",
-          "light-green": "#C8E6C9",
+          "light-green": "#4de851",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

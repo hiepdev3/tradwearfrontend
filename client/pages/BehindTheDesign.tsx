@@ -26,62 +26,69 @@ import {
 export default function BehindTheDesign() {
   const [selectedArtisan, setSelectedArtisan] = useState<number | null>(null);
 
+ 
   const artisans = [
-    {
-      id: 1,
-      name: "Nguyễn Thị Thanh",
-      specialty: "Gốm Bát Tràng",
-      craft: "Traditional Pottery",
-      image: "/placeholder.svg",
-      quote:
-        "Every piece of pottery tells a story of our ancestors. When TradWear features our ceramic patterns, it brings our heritage to the world.",
-      bio: "Master potter from Bát Tràng village with over 30 years of experience. Her family has been creating ceramics for five generations.",
-      location: "Bát Tràng Village, Hanoi",
-    },
-    {
-      id: 2,
-      name: "Lê Văn Minh",
-      specialty: "Thêu Truyền Thống",
-      craft: "Traditional Embroidery",
-      image: "/placeholder.svg",
-      quote:
-        "Each stitch carries the soul of Vietnamese culture. Through TradWear, our embroidery reaches hearts across the globe.",
-      bio: "Third-generation embroidery artist specializing in traditional Vietnamese motifs and techniques passed down through generations.",
-      location: "Quất Động Village, Hanoi",
-    },
-    {
-      id: 3,
-      name: "Phạm Thị Mai",
-      specialty: "Vẽ Đông Hồ",
-      craft: "Folk Art Painting",
-      image: "/placeholder.svg",
-      quote:
-        "Đông Hồ paintings bring joy and luck to homes. Now they bring the same spirit to TradWear's beautiful clothing.",
-      bio: "Folk artist specializing in traditional Đông Hồ paintings, keeping alive the ancient woodblock printing techniques of her village.",
-      location: "Đông Hồ Village, Bắc Ninh",
-    },
-  ];
+  {
+    id: 1,
+    name: "Trịnh Văn Sơn",
+    specialty: "Bún Chả Hà Nội",
+    craft: "Grilled Pork & Noodle Street Food",
+    image: "/placeholder.svg",
+    quote:
+      "Bún chả captures the soul of Hanoi with smoky grilled pork and fresh noodles—each bowl tells the story of our city's streets.",
+    bio:
+      "Street-food vendor in Hanoi’s Old Quarter, serving authentic bún chả for over 25 years. Featured as a symbol of Hanoi's rich culinary heritage.",
+    location: "Hoàn Kiếm District, Hanoi",
+  },
+  {
+    id: 2,
+    name: "Nguyễn Thị Hạnh",
+    specialty: "Bánh Xèo Miền Tây",
+    craft: "Crispy Pancake Craftsmanship",
+    image: "/placeholder.svg",
+    quote:
+      "The sizzling sound of bánh xèo echoes our family gatherings—every crepe is a celebration of Southern flavor.",
+    bio:
+      "Culinary artisan from Cần Thơ, preserving traditional Mekong Delta recipes and techniques for making large, flavorful bánh xèo.",
+    location: "Cần Thơ, Mekong Delta",
+  },
+  {
+    id: 3,
+    name: "Đào Văn Minh",
+    specialty: "Chả Cá Lã Vọng",
+    craft: "Traditional Grilled Fish",
+    image: "/placeholder.svg",
+    quote:
+      "Chả cá Lã Vọng is more than a dish—it’s a legacy of patience and flavor passed down through Hanoi’s culinary history.",
+    bio:
+      "Fourth-generation chef at the original Chả Cá Lã Vọng restaurant on Hàng Sơn Street, preserving a dish dating back to 1871. :contentReference[oaicite:1]{index=1}",
+    location: "Hàng Sơn Street, Hanoi",
+  },
+];
+
+
 
   const culturalElements = [
-    {
-      title: "Phở – Hanoi's Soul Food",
-      description:
-        "The iconic bowl represents community, warmth, and Vietnam's culinary heritage spanning centuries.",
-      image: "/placeholder.svg",
-    },
-    {
-      title: "Bát Tràng Ceramics",
-      description:
-        "Generations of clay craft traditions creating beautiful pottery that tells stories of Vietnamese artistry.",
-      image: "/placeholder.svg",
-    },
-    {
-      title: "Silk from Vạn Phúc Village",
-      description:
-        "Ancient weaving techniques producing the finest silk, embodying elegance and traditional craftsmanship.",
-      image: "/placeholder.svg",
-    },
-  ];
+  {
+    title: "Phở – Linh hồn ẩm thực Hà Nội",
+    description:
+      "Mỗi bát phở là sự hòa quyện của thời gian, hương vị và tâm huyết của người nấu. Đây không chỉ là món ăn, mà còn là ký ức văn hóa của người Việt.",
+    image: "/placeholder.svg",
+  },
+  {
+    title: "Bánh Chưng – Hương Tết truyền thống",
+    description:
+      "Chiếc bánh vuông vức tượng trưng cho đất, gói trong lá dong và chứa đựng sự đoàn viên, biết ơn tổ tiên trong dịp Tết cổ truyền.",
+    image: "/placeholder.svg",
+  },
+  {
+    title: "Nem Rán – Vị giòn vàng của ký ức",
+    description:
+      "Nem rán (chả giò) là món ăn không thể thiếu trong bữa cơm sum họp của người Việt, gói ghém sự tinh tế và khéo léo trong từng lớp bánh tráng giòn tan.",
+    image: "/placeholder.svg",
+  },
+];
+
 
   const values = [
     {
@@ -117,7 +124,7 @@ export default function BehindTheDesign() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <img
-            src="/placeholder.svg"
+            src="/imaginepublic/7.png"
             alt="Vietnamese artisan at work"
             className="w-full h-full object-cover"
           />
