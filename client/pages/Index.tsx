@@ -23,7 +23,7 @@ export default function Index() {
       id: 1,
       name: "Bánh mì Sài Gòn",
       price: "299.000 VND",
-      image: "/public/imaginepublic/1.png",
+      image: "https://public/imaginepublic/1.png",
       description: " Iconic Vietnamese sandwich culture",
       culturalTheme: "Sai Gon Street Food",
     },

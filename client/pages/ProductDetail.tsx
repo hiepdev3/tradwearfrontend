@@ -58,10 +58,10 @@ export default function ProductDetail() {
     ],
     sizes: ["S", "M", "L", "XL"],
     images: [
-      "/public/imaginepublic/4.png",
-      "/public/imaginepublic/4.png",
-      "/public/imaginepublic/4.png",
-      "/public/imaginepublic/4.png",
+      "https://public/imaginepublic/4.png",
+      "https://public/imaginepublic/4.png",
+      "https://public/imaginepublic/4.png",
+      "https://public/imaginepublic/4.png",
     ],
   };
 
@@ -97,28 +97,28 @@ export default function ProductDetail() {
       id: 2,
       name: "Bánh mì Sài Gòn",
       price: 38,
-      image: "/imaginepublic/1.png",
+      image: "https://imaginepublic/1.png",
       category: "Shirt",
     },
     {
       id: 3,
       name: "Hủ Tiếu Nam Vang",
       price: 58,
-      image: "/imaginepublic/2.png",
+      image: "https://imaginepublic/2.png",
       category: "Shirt",
     },
     {
       id: 4,
       name: "Bat Trang Ceramic Tee",
       price: 34,
-      image: "/placeholder.svg",
+      image: "https://placeholder.svg",
       category: "T-Shirt",
     },
     {
       id: 5,
       name: "Mekong Delta Hoodie",
       price: 55,
-      image: "/placeholder.svg",
+      image: "https://placeholder.svg",
       category: "Hoodie",
     },
   ];
