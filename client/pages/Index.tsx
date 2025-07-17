@@ -31,7 +31,7 @@ export default function Index() {
       id: 2,
       name: "Hủ Tiếu Nam Vang",
       price: "299.000 VND",
-      image: "/public/imaginepublic/2.png",
+      image: "https://public/imaginepublic/2.png",
       description: "A tribute to Southern Vietnam’s culinary heritagee",
       culturalTheme: "Traditional Art",
     },
@@ -39,7 +39,7 @@ export default function Index() {
       id: 3,
       name: "Phờ bò Hà Nội", 
       price: "275.000 VND",
-      image: "/public/imaginepublic/4.png",
+      image: "https://public/imaginepublic/4.png",
       description: "Traditional Vietnamese noodle soup design",
       culturalTheme: "Hanoi Food Culture",
     },
@@ -148,7 +148,7 @@ export default function Index() {
               <div className="absolute -bottom-6 -right-6 bg-tradwear-green text-white p-4 rounded-2xl shadow-lg">
                 <div className="text-center">
                   <div className="text-2xl font-bold">1M+</div>
-                  <div className="text-sm">Bottles Recycled</div>
+                  
                 </div>
               </div>
             </div>
