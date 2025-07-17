@@ -124,7 +124,7 @@ export default function BehindTheDesign() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <img
-            src="/imaginepublic/7.png"
+            src="/public/imaginepublic/7.png"
             alt="Vietnamese artisan at work"
             className="w-full h-full object-cover"
           />

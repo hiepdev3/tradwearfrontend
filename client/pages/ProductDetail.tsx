@@ -58,10 +58,10 @@ export default function ProductDetail() {
     ],
     sizes: ["S", "M", "L", "XL"],
     images: [
-      "/imaginepublic/4.png",
-      "/imaginepublic/4.png",
-      "/imaginepublic/4.png",
-      "/imaginepublic/4.png",
+      "/public/imaginepublic/4.png",
+      "/public/imaginepublic/4.png",
+      "/public/imaginepublic/4.png",
+      "/public/imaginepublic/4.png",
     ],
   };
 
